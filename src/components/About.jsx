@@ -18,10 +18,10 @@ export const About = () => {
                 <div className='max-w-[1000px] w-full grid 
                         sm:grid-cols-2 gap-8 px-4'>
                     <div className='sm:text-right text-4xl font-bold '>
-                        <p>Soy Matias, encantado de conocerte.</p>
+                        <p>Soy Matias, nice to meet you.</p>
                     </div>
                     <div>
-                        <p text-xl>Desde que tengo memoria me encanta la tecnología, cuando conocí la programación fue algo mágico y sin dudas era algo de lo que quería aprender. Cada día intento adquirir conocimiento para lograr cada vez mayores hazañas dentro de este gran mundo.!</p>
+                        <p text-xl>Since I can remember I have loved technology, when I discovered programming it was something magical and without a doubt it was something I wanted to learn. Every day I try to acquire knowledge to achieve ever greater feats within this great world.</p>
                     </div>
                     
             </div>

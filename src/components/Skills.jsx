@@ -8,6 +8,7 @@ import Node from '../assets/node.png';
 import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
 import Sequelize from '../assets/sequelize.png';
+import Mongo from '../assets/mongo.png'
 
 export const Skills = () => {
   return (
@@ -16,7 +17,7 @@ export const Skills = () => {
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
                 <p className='text-4xl font-bold inline border-b-4 border-pink-600 '>Skills</p>
-                <p className='py-4 text-xl'>Estas son algunas de las tecnologias con las que trabajo</p>
+                <p className='py-4 text-xl'>These are some of the technologies with which he worked</p>
             </div>
         
 
@@ -34,16 +35,17 @@ export const Skills = () => {
                 <p className='my-4'>JavaScript</p>
             </div>
             <div className='shadow-md shadow=[#040c16] hover:scale-110 duration-500'>
-                <img src={ReactImg} alt="" className='w-20 mx-auto'/>
-                <p className='my-4'>React</p>
-            </div>
-            <div className='shadow-md shadow=[#040c16] hover:scale-110 duration-500'>
                 <img src={Node} alt="" className='w-20 mx-auto'/>
                 <p className='my-4'>Node</p>
             </div>
             <div className='shadow-md shadow=[#040c16] hover:scale-110 duration-500'>
-                <img src={Tailwind} alt="" className='w-20 mx-auto'/>
-                <p className='my-4'>TailWind</p>
+                <img src={ReactImg} alt="" className='w-20 mx-auto'/>
+                <p className='my-4'>React</p>
+            </div>
+            
+            <div className='shadow-md shadow=[#040c16] hover:scale-110 duration-500'>
+                <img src={Mongo} alt="" className='w-20 mx-auto'/>
+                <p className='my-4'>Mongo</p>
             </div>
             <div className='shadow-md shadow=[#040c16] hover:scale-110 duration-500'>
                 <img src={GitHub} alt="" className='w-20 mx-auto'/>

@@ -10,7 +10,7 @@ export const Work = () => {
      <p className="text-4xl font-bold inline border-b-4 border-pink-600">
       Work
      </p>
-     <p className="py-6 text-xl">Mira mis trabajos recientes:</p>
+     <p className="py-6 text-xl">Check out my recent works:</p>
     </div>
     {/* Container */}
     <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4"> 
