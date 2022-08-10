@@ -25,7 +25,7 @@ export const Work = () => {
             {/* Hover effect */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white flex justify-center">
-                PortFolio
+                Url-Shorthener
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
