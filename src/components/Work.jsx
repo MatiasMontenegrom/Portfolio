@@ -1,7 +1,7 @@
 import React from "react";
 import WorkImg from "../assets/workImg.jpeg";
 import realEstate from "../assets/realestate.jpg";
-import urlShorthener from "../assets/urlshortener.jpg";
+import urlShorthener from "../assets/urlshortener.png";
 
 export const Work = () => {
   return (
