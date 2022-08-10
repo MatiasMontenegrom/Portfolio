@@ -1,6 +1,7 @@
 import React from "react";
 import WorkImg from "../assets/workImg.jpeg";
 import realEstate from "../assets/realestate.jpg";
+import urlShorthener from "../assets/urlshortener.jpg";
 
 export const Work = () => {
   return (
@@ -42,7 +43,7 @@ export const Work = () => {
           </div>
           <div
             style={{
-              backgroundImage: `url(${WorkImg})`,
+              backgroundImage: `url(${urlShorthener})`,
               backgroundSize: "100%",
             }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -53,12 +54,12 @@ export const Work = () => {
                 PortFolio
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://url-shorthener.herokuapp.com">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/MatiasMontenegrom/Portfolio">
+                <a href="https://github.com/MatiasMontenegrom/Url-Shorthener">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
