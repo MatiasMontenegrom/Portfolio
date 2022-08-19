@@ -1,7 +1,8 @@
 import React from "react";
 import WorkImg from "../assets/workImg.jpeg";
 import realEstate from "../assets/realestate.jpg";
-import urlShorthener from "../assets/urlShorthener.png";
+// import urlShorthener from "../assets/urlShorthener.png";
+import recipeBlog from "../assets/recipe-blog.png"
 
 export const Work = () => {
   return (
@@ -43,7 +44,7 @@ export const Work = () => {
           </div>
           <div
             style={{
-              backgroundImage: `url(${urlShorthener})`,
+              backgroundImage: `url(${recipeBlog})`,
               backgroundSize: "100%",
             }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -51,15 +52,15 @@ export const Work = () => {
             {/* Hover effect */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white flex justify-center">
-              Url-Shorthener
+              Recipe Blog
               </span>
               <div className="pt-8 text-center">
-                <a href="https://url-shorthener.herokuapp.com">
+                <a href="https://recipeblog-two.vercel.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/MatiasMontenegrom/Url-Shorthener">
+                <a href="https://github.com/MatiasMontenegrom/Food-Recipe-Blog">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
